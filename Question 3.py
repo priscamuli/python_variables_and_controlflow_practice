@@ -1,7 +1,6 @@
 #user to input a score
 score=int(input("Enter your score: "))
 
-#using a function called score_category
 
 if score < 0 or score > 100:
     print("invalid score")
